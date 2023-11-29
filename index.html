@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>mmuse - Home</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    
+        <!-- To do
+        1. integrate a video (a local and from youtube
+        2. Make an "about us" page-->
+        
+        <!-- Main container -->
+        <div class="master-container">
+            <!-- Navigation -->
+            <nav>
+                <img src="Images/Logo.png" alt="logo mmuse">
+                <div>
+                    <a href="" class="nav-links" id="current-page">Home</a>
+                    <a href="main-artistes/main-artistes.html" class="nav-links">Artistes</a>
+                    <a href="Podcasts/podcasts.html" class="nav-links">Podcasts</a>
+                    <a href="search/search.html" class="nav-links">Rechercher</a>
+                    <a href="" class="nav-links">Contact</a>
+                </div>
+            </nav>
+
+            <!-- Titre -->
+            <h1>Bon retour!</h1>
+
+            <!-- Quoi de neuf -->
+            <div id="whats-new">
+                <div id="wn-container">
+                    <h2>Quoi de neuf</h2>
+                    <div id="album-container">
+                        <img src="Images/album1.png" alt="Graduation by Kanye West">
+                        <img src="Images/album2.png" alt="Graduation by Kanye West">
+                        <img src="Images/album3.png" alt="Graduation by Kanye West">
+                    </div>
+                </div>
+                <div id="blob"></div>
+            </div>
+        </div>
+
+        <!-- Section nouveautés -->
+        <div id="feature-container">
+            <h1>Des millions d’albums à votre portée</h1>
+            <p id="feature-text">Mettez la main sur notre nouvelle technologie poussé par l’IA qui pourrait vous apporter votre nouveau coup de coeur</p>
+            <p id="release-date">Arrive en février 2024</p>
+        </div>
+
+        <div class="master-container">
+            <!-- Stats section -->
+            <div id="stats">
+                <h2>Vos statistiques</h2>
+                <div id="stats-flex">
+                    <div class="stat">
+                        <p class="stat-number">100K</p>
+                        <p>musiques écoutées</p>
+                    </div>
+                    <div class="stat">
+                        <p class="stat-number">103h</p>
+                        <p>de musiques écoutées</p>
+                    </div>
+                    <div class="stat">
+                        <p class="stat-number">14</p>
+                        <p>playlists créés</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section audio -->
+            <div id="audio">
+                <div id="text-container">
+                    <p id="audio-text">Nouveauté de cette semaine</p>
+                    <h2 id="album-name">Swimming</h2>
+                    <p id="artist-name">Par Mac Miller</p>
+                </div>
+                <audio controls id="audio-play">
+                    <source src="audio/self-care.mp3">
+                </audio>
+            </div>
+        </div>
+        
+        <!-- Section Footer (Work In Progress -->
+        <footer>
+            <div id="footer-container">
+                <img src="Images/Logo.png" alt="logo mmuse">
+                <div id="footer-links-container">
+                    <a href="" class="footer-links">Home</a>
+                    <a href="main-artistes/main-artistes.html" class="footer-links">Artistes</a>
+                    <a href="search/search.html" class="footer-links">Rechercher</a>
+                    <a href="" class="footer-links">Contact</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
