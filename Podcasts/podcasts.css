@@ -1,0 +1,153 @@
+body {
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 30px 0 0;
+}
+
+.master-container {
+    width: 1125px;
+    align-items: center;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1150px;
+    color: white;
+    margin-top: 10%;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: white;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin-right: 25px;
+    font-size: 15px;
+    padding: 16px 34px;
+    background-color: black;
+    border-radius: 37px;
+}
+
+#current-page {
+    background-color: #FF0000;
+    box-shadow: 0 0 60px 0 #F00;
+}
+
+/* Weekly Podcast */
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+#weekly-container {
+    background-color: black;
+    border-radius: 50px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-bottom: 200px;
+}
+
+h2 {
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+#author {
+    font-size: 30px;
+    color: #939393;
+    font-family: "Inter", sans-serif;
+}
+
+#weekly-text {
+    margin-left: 50px;
+}
+
+h2, #author {
+    margin: 5px;
+}
+
+/* New podcasts */
+#new-podcasts {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+/* Videos */
+.video-container {
+    margin-top: 25px;
+    background-color: #353535;
+    border-radius: 40px;
+    padding: 25px;
+}
+
+
+h3 {
+    text-align: left;
+
+    font-size: 25px;
+    color: white;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+
+
+.tag {
+    padding: 15px 25px;
+    background-color: #222222;
+    margin-right: 15px;
+    border-radius: 25px;
+    color: white;
+    font-family: "Inter", sans-serif;
+
+}
+
+.info {
+    margin-left: 25px;
+}
+
+.tags-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+}
+iframe {
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.video-title {
+    font-size: 35px;
+    margin: 0;
+    text-align: left;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.description {
+    font-size: 15px;
+    text-align: left;
+    font-weight: normal;
+    color: white;
+    font-family: "Inter", sans-serif;
+}

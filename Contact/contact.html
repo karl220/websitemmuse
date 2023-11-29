@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>mmuse - Contact</title>
+        <link rel="stylesheet" type="text/css" href="contact.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="master-container">
+            <!-- Navigation -->
+            <nav>
+                <img src="../Images/Logo.png" alt="logo mmuse">
+                <div>
+                    <a href="../index.html" class="nav-links">Home</a>
+                    <a href="../main-artistes/main-artistes.html" class="nav-links">Artistes</a>
+                    <a href="../Podcasts/podcasts.html" class="nav-links">Podcasts</a>
+                    <a href="../search/search.html" class="nav-links">Rechercher</a>
+                    <a href="../Contact/contact.html" class="nav-links" id="current-page">Contact</a>
+                </div>
+            </nav>
+            
+            <!-- Form -->
+            <h1>Vous avez quelque chose à nous dire?</h1>
+            <form>
+                <!-- First row -->
+                <div class="flex-rows">
+                    <div>
+                        <label for="first-name">Prénom :</label>
+                        <input id="first-name" type="text">
+                    </div>
+                    <div>
+                        <label for="last-name">Nom :</label>
+                        <input id="last-name" type="text">
+                    </div>
+                </div>
+                
+                <!-- Second row -->
+                <label for="email">Email :</label>
+                <input id="email" type="email">
+                
+                <!-- Third row -->
+                <label for="message">Message :</label>
+                <textarea id="message" rows="5"></textarea>>
+                
+                <!-- submit button -->
+                <button id="button" type="submit">Envoyer</button>
+            </form>
+        </div>
+    </body>
+</html>
